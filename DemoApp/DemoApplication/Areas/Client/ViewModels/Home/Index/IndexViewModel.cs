@@ -1,11 +1,12 @@
-﻿using DemoApplication.Database.Models;
+﻿using DemoApplication.Areas.Client.ViewModels.Colors;
+using DemoApplication.Database.Models;
 
 namespace DemoApplication.Areas.Client.ViewModels.Home.Index
 {
     public class IndexViewModel
     {
         public List<BookListItemViewModel> Books { get; set; }
-        public List<Color> Colors { get; set; }
+        public List<ColorViewModel> Colors { get; set; }
 
     }
 }

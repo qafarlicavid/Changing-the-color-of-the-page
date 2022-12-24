@@ -5,3 +5,4 @@ console.log(color)
 let obj = JSON.parse(color);
 
 document.body.style.backgroundColor = obj.Name
+
